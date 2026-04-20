@@ -31,14 +31,14 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white text-neutral-900">
-      <div className="max-w-3xl mx-auto px-8 py-12">
+      <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 md:py-12">
 
         {/* HEADER */}
         <div className="mb-10 pb-10 border-b border-neutral-200">
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-sm text-neutral-700 mb-4">Investment Memo · Ubud</p>
-              <h1 className="text-4xl font-semibold text-neutral-900 leading-tight tracking-tight mb-4">
+              <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 leading-tight tracking-tight mb-4">
                 Build more rooms or invest in facilities?
               </h1>
               <p className="text-base text-neutral-700 leading-relaxed max-w-xl">
@@ -59,7 +59,7 @@ export default function Page() {
         {/* BASE ASSUMPTIONS */}
         <div className="mb-10">
           <p className="text-sm text-neutral-700 mb-5">Base assumptions</p>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <div className="flex justify-between items-baseline mb-3">
                 <span className="text-sm text-neutral-700">Total rooms</span>
@@ -100,7 +100,7 @@ export default function Page() {
         </div>
 
         {/* SCENARIOS */}
-        <div className="grid md:grid-cols-2 gap-4 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
           <Card>
             <CardContent className="p-7">
               <p className="text-sm text-neutral-700 font-bold mb-3">Scenario A</p>
@@ -136,7 +136,7 @@ export default function Page() {
             Adjust guest attachment rate and average spend. Prices reflect Ubud market rates.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {services.map((s, i) => (
               <Card key={s.key}>
                 <CardContent className="p-5">

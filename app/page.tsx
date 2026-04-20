@@ -12,7 +12,7 @@ const CARDS = [
 
 export default function Home() {
   return (
-    <div className="max-w-3xl mx-auto px-8 py-12">
+    <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 md:py-12">
 
       {/* Hero image */}
       <div className="relative aspect-[16/7] overflow-hidden rounded-lg mb-10">
@@ -28,7 +28,7 @@ export default function Home() {
       {/* Title */}
       <div className="mb-10 pb-10 border-b border-neutral-200">
         <div className="flex items-baseline gap-4 mb-4">
-          <h1 className="text-4xl font-semibold text-neutral-900 tracking-tight">
+          <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight">
             Hotel Project Ubud
           </h1>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
       </div>
 
       {/* Nav cards */}
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {CARDS.map((card) => (
           <Link
             key={card.href}

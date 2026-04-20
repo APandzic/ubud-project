@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${sans.variable} ${mono.variable} flex min-h-screen bg-white`}>
         <RoiProvider>
           <Sidebar />
-          <main className="flex-1 overflow-auto">{children}</main>
+          <main className="flex-1 overflow-auto pt-14 md:pt-0">{children}</main>
         </RoiProvider>
       </body>
     </html>

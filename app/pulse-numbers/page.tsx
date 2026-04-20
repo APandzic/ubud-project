@@ -2,7 +2,7 @@ function TableSection({ title, children }: { title: string; children: React.Reac
   return (
     <section className="mb-14">
       <h2 className="text-2xl font-semibold text-neutral-900 tracking-tight mb-6">{title}</h2>
-      <div className="border border-neutral-200 rounded-lg overflow-hidden">
+      <div className="border border-neutral-200 rounded-lg overflow-x-auto">
         {children}
       </div>
     </section>
@@ -35,12 +35,12 @@ function TotalRow({ children }: { children: React.ReactNode }) {
 
 export default function PulseNumbersPage() {
   return (
-    <div className="max-w-3xl mx-auto px-8 py-12">
+    <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 md:py-12">
 
       {/* Header */}
       <div className="mb-12 pb-10 border-b border-neutral-200">
         <p className="text-sm text-neutral-700 mb-4">Financial model · PULSE + VITA · v3.0</p>
-        <h1 className="text-4xl font-semibold text-neutral-900 tracking-tight mb-4">
+        <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight mb-4">
           Core Financial Tables
         </h1>
         <p className="text-base text-neutral-700 leading-relaxed max-w-xl">

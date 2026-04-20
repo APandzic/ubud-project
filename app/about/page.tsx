@@ -117,12 +117,12 @@ const PHASES = [
 
 export default function AboutPage() {
   return (
-    <div className="max-w-3xl mx-auto px-8 py-12">
+    <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 md:py-12">
 
       {/* Header */}
       <div className="mb-12 pb-10 border-b border-neutral-200">
         <p className="text-sm text-neutral-700 mb-4">Who we are</p>
-        <h1 className="text-4xl font-semibold text-neutral-900 tracking-tight mb-4">
+        <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight mb-4">
           End-to-End Hotel Development & Management
         </h1>
         <p className="text-base text-neutral-700 leading-relaxed">

@@ -10,18 +10,18 @@ const IMAGES = [
 
 export default function ConceptPage() {
   return (
-    <div className="max-w-3xl mx-auto px-8 py-12">
+    <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 md:py-12">
 
       <div className="mb-10 pb-10 border-b border-neutral-200">
         <p className="text-sm text-neutral-700 mb-4">Visual direction · Ubud</p>
-        <h1 className="text-4xl font-semibold text-neutral-900 tracking-tight mb-4">Concept</h1>
+        <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight mb-4">Concept</h1>
         <p className="text-base text-neutral-700 leading-relaxed max-w-xl">
           Natural materials, warm tones, and crafted detail. The aesthetic draws from
           Balinese craftsmanship with a modern, minimal sensibility.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {/* First image spans full width */}
         <div className="col-span-2 relative aspect-[16/9] overflow-hidden rounded-lg">
           <Image src={IMAGES[0].src} alt={IMAGES[0].alt} fill className="object-cover" />

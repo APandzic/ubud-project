@@ -137,12 +137,12 @@ type Section = {
 
 export default function JointVenturePage() {
   return (
-    <div className="max-w-3xl mx-auto px-8 py-12">
+    <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 md:py-12">
 
       {/* Header */}
       <div className="mb-12 pb-10 border-b border-neutral-200">
         <p className="text-sm text-neutral-700 mb-4">Investor pitch · Uluwatu, Bali · v3.0</p>
-        <h1 className="text-4xl font-semibold text-neutral-900 tracking-tight mb-2">
+        <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight mb-2">
           PULSE + VITA
         </h1>
         <p className="text-base text-neutral-700 leading-relaxed max-w-xl mt-4">
@@ -172,7 +172,7 @@ export default function JointVenturePage() {
               ))}
 
               {section.stats && (
-                <div className="grid grid-cols-3 gap-3 my-6">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 my-6">
                   {section.stats.map((stat) => (
                     <div key={stat.label} className="border border-neutral-200 rounded-lg p-4">
                       <p className="font-mono text-xl font-semibold text-neutral-900">{stat.value}</p>
@@ -199,7 +199,7 @@ export default function JointVenturePage() {
               ))}
 
               {section.models && (
-                <div className="grid grid-cols-2 gap-3 my-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-4">
                   {section.models.map((model) => (
                     <div key={model.label} className="border border-neutral-200 rounded-lg p-5">
                       <p className="text-sm font-semibold text-neutral-900 mb-2">{model.label}</p>
