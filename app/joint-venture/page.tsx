@@ -46,16 +46,16 @@ const SECTIONS = [
   {
     number: "04",
     title: "The Numbers That Matter",
-    meta: "2 minutes",
+    meta: "2.5 minutes",
     body: [
       "Monthly gross revenue at stabilization: approximately IDR 2.36 billion, or $138,000 USD. That breaks down across seven streams, with our HIIT studio as the largest single contributor at 33% of revenue.",
       "Our gym pricing at $80 per month is accessible by design. Verified competitors like Body Factory charge $158 to $234, RAW charges $82, so $80 gives us the broadest possible membership reach at a premium facility. Our HIIT at $18 per class matches Barry's and F45 pricing globally. Our F&B at $24,000 per month is conservatively modeled as a fuel bar serving our fitness community, not a destination restaurant competing with Uluwatu's established dining scene.",
-      "Operating expenses run at 63% of revenue, which puts our EBITDA margin at 37%. The global gym industry median is 23.6% EBITDA. Planet Fitness, one of the highest-margin operators in the world, runs up to 35%. Our 37% margin sits at the top of the industry range because Bali's labor costs are structurally 70% lower than comparable Western markets, and 57% of our revenue is recurring membership and class-based, which carries 70 to 80% incremental margins after fixed costs are covered.",
+      "Operating expenses run at 66% of revenue, which puts our EBITDA margin at 34%. That 34% already includes the full land partnership cost, both the fixed rent and the EBITDA share we pay our landowner. The global gym industry median is 23.6% EBITDA. Planet Fitness runs up to 35%. Our 34% sits at the top of the industry range, fully loaded, with nothing hidden below the line. That's defensible because Bali's labor costs are 70% lower than comparable Western markets, and 57% of our revenue is recurring membership and class-based, carrying 70 to 80% incremental margins after fixed costs are covered.",
     ],
     stats: [
       { label: "Monthly gross revenue", value: "IDR 2.36B", sub: "~$138,000 USD" },
-      { label: "EBITDA margin", value: "37%", sub: "vs. 23.6% industry median" },
-      { label: "Annual net profit", value: "IDR 7B", sub: "~$407,000 USD" },
+      { label: "EBITDA margin", value: "34%", sub: "fully loaded incl. land costs" },
+      { label: "Annual net profit", value: "IDR 6.4B", sub: "~$376,000 USD" },
     ],
   },
   {
@@ -66,12 +66,12 @@ const SECTIONS = [
       "Total capital required: IDR 29.5 billion, or about $1.79 million USD. That covers construction across three phases, all equipment and fit-out, pre-opening marketing, three months of working capital, and a 10% contingency buffer.",
     ],
     stats: [
-      { label: "Cash-on-cash return", value: "30.1%", sub: "at stabilization" },
-      { label: "Payback period", value: "~4.8 years", sub: "including ramp-up" },
-      { label: "10-year IRR", value: "23 to 25%", sub: "vs. 6.5% sovereign bonds" },
+      { label: "Cash-on-cash return", value: "21.0%", sub: "at stabilization" },
+      { label: "Payback period", value: "~5.3 years", sub: "including ramp-up" },
+      { label: "10-year IRR", value: "~21%", sub: "institutional PE range" },
     ],
     bodyAfter: [
-      "At year-ten exit, at a conservative 4x EBITDA multiple, the business is worth approximately IDR 40 billion, or roughly $2.45 million USD. Combined with the cash flow over those ten years, investors see a total multiple of approximately 2.46x on their invested capital.",
+      "At year-ten exit, at a conservative 4x EBITDA multiple, the business is worth approximately IDR 38 billion, or roughly $2.27 million USD. Combined with the cash flow over those ten years, investors see a total multiple of approximately 2.27x on their invested capital.",
     ],
   },
   {
@@ -83,14 +83,14 @@ const SECTIONS = [
       {
         label: "Model A — Pre-Investment",
         description: "Commit the full IDR 29.5 billion in a single round. Receive 75% equity. Capital deployed across three construction phases on your timeline.",
-        metrics: ["Annual ROI: 22.7%", "10-year IRR: ~23%", "Total multiple: 2.46x"],
+        metrics: ["Annual ROI: 21.0%", "10-year IRR: ~21%", "Total multiple: 2.27x"],
         note: "Suits strategic investors, family offices, and high-trust relationships. Lowest entry valuation, highest upside. Trade-off: full capital at risk before operational validation.",
       },
       {
         label: "Model B — Milestone-Based",
         description: "Capital deployed in three tranches tied to clear milestones. Round 1 at signing: IDR 8B for 30%. Round 2 at 50% construction: IDR 12B for 25%. Round 3 at soft launch: IDR 9.5B for 15%. Total investor ownership: 55%.",
-        metrics: ["Annual ROI: 16.6%", "10-year IRR: ~17%", "Total multiple: 1.81x"],
-        note: "Suits risk-conscious investors and syndicated groups. Validate performance before each tranche. Trade-off: later rounds price at higher valuations, reducing overall return by 6 percentage points of IRR.",
+        metrics: ["Annual ROI: 15.4%", "10-year IRR: ~15%", "Total multiple: 1.67x"],
+        note: "Suits risk-conscious investors and syndicated groups. Validate performance before each tranche. If your primary concern is de-risking, Model B gives you validation before each capital deployment. If your primary concern is maximum return, Model A is the obvious choice.",
       },
     ],
   },
@@ -103,9 +103,9 @@ const SECTIONS = [
       label: "Four reasons this is an exceptional opportunity",
       items: [
         "The market gap is real, large, and unaddressed. Over two million annual wellness tourists and 50,000 long-term expats. Zero premium cardio and HIIT facilities with longevity integration.",
-        "Our land partnership is structurally advantageous. HGB structure, 30 years, renewable to 80, keeps 93% of EBITDA with the operating company. We've priced the land deal generously for the landowner while preserving operator economics.",
-        "Revenue streams are diversified and weighted toward recurring income. 57% is membership and class-based, carrying 70 to 80% incremental margins. Even if F&B underperforms, the fitness and clinic memberships hold. And by pricing the gym at $80 rather than $130, we've built a membership base more resilient to economic cycles.",
-        "The projections are conservative and stress-tested. F&B is modeled as a service to members rather than a destination restaurant, and the Longevity Clinic is sized at realistic early-stage volume. The project remains ROI-positive at 55% of projected revenue. Operational break-even only occurs below 42% of plan.",
+        "Our land partnership is structurally advantageous. Operating under HGB, 30 years renewable to 80, the landowner receives 2.8 times the local market rate for commercial land in Uluwatu, making the deal genuinely attractive to them, while costing us just 3.4% of gross revenue combined. Typical restaurant or hotel leases in Bali pay 15 to 20% of revenue to landlords. We've designed a deal that's generous to the landowner while preserving operator economics.",
+        "Revenue streams are diversified and weighted toward recurring income. 57% is membership and class-based, carrying 70 to 80% incremental margins. Even if F&B underperforms, the fitness and clinic memberships hold. And by pricing the gym at $80 rather than $130, we've built a membership base more resilient to economic cycles and personal churn.",
+        "The projections are conservative, stress-tested, and fully loaded. F&B is modeled as a service to members, the Longevity Clinic is sized at realistic early-stage volume, and the full landowner cost is included in OpEx rather than hidden below EBITDA. The project remains ROI-positive at 55% of projected revenue. Operational break-even only occurs below 45% of plan.",
       ],
     },
   },
@@ -141,7 +141,7 @@ export default function JointVenturePage() {
 
       {/* Header */}
       <div className="mb-12 pb-10 border-b border-neutral-200">
-        <p className="text-sm text-neutral-700 mb-4">Investor pitch · Uluwatu, Bali · v5.0</p>
+        <p className="text-sm text-neutral-700 mb-4">Investor pitch · Uluwatu, Bali · v6.0</p>
         <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight mb-2">
           PULSE + VITA
         </h1>
