@@ -17,7 +17,7 @@ export default function ConceptPage() {
         <h1 className="text-3xl md:text-4xl font-semibold text-neutral-900 tracking-tight mb-4">Concept</h1>
         <p className="text-base text-neutral-700 leading-relaxed max-w-xl">
           Natural materials, warm tones, and crafted detail. The aesthetic draws from
-          Balinese craftsmanship with a modern, minimal sensibility.
+          Indonesian craftsmanship with a modern, minimal sensibility.
         </p>
       </div>
 

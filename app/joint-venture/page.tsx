@@ -24,8 +24,8 @@ const SECTIONS = [
     title: "The Solution",
     meta: "1 minute",
     body: [
-      "PULSE + VITA is built around a simple insight: the best premium wellness facility in Bali should feel distinctly Balinese. Not generic. Not global chain. Bali.",
-      "We're combining Tropical Brutalism with Japanese Minimalism, raw concrete, preserved jungle, pond views, natural light, open-air where possible, climate-controlled where necessary. The architecture itself becomes the marketing.",
+      "PULSE + VITA is built around a simple insight: the best premium wellness facility in Bali should feel distinctly Tropical. Not generic. Not global chain. Bali.",
+      "We're blending tropical architecture with Japanese Minimalism, lush greenery, preserved jungle, pond views, natural light, open-air where possible, climate-controlled where necessary. The architecture itself becomes the marketing.",
     ],
     list: {
       label: "Seven revenue streams operating together",
